@@ -3,10 +3,9 @@ const perkalian = (x, y) => {
   for (let i = 0; i < y; i++) {
     result += x
   }
-  console.log(result);
   return result;
 }
 
-perkalian(0, 2);
-perkalian(1, 14);
-perkalian(12, 6);
+console.log(perkalian(0, 2));
+console.log(perkalian(1, 14));
+console.log(perkalian(12, 6));
